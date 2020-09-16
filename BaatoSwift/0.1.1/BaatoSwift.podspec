@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
   spec.swift_version = "5"
-  spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+# spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "Alamofire", "~> 5.2"
   spec.dependency "GEOSwift"
   spec.dependency "geos"
